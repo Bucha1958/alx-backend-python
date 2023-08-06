@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-import math
+
 """
     A module 2-floor
 """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
         Floor function takes a float type as argument
         n parameter - float
         Return float that is been converted to floor
     """
-    return math.floor(n)
+    return int(n)
