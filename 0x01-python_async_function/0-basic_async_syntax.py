@@ -4,7 +4,7 @@ import random
 """Basic async syntax"""
 
 
-async def wait_random(max_delay: int = 10):
+async def wait_random(max_delay: int = 10) -> float:
     """
     wait_function is a coroutine with an int parameter
     """
