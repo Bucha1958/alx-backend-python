@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 import random
 import asyncio
+from typing import Generator
 """
 Async_generator module
 """
 
 
-async def async_generator() -> int:
+async def async_generator() -> Generator[float, None, None]:
     """
     async generator function takes no argument
     """
